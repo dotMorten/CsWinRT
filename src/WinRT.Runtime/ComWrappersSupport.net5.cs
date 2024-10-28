@@ -506,7 +506,7 @@ namespace WinRT
 
                     if (addRefFromTrackerSource)
                     {
-                        objRef.AddRefFromTrackerSourceUnsafe(); // ObjRef instance
+                        objRef.NativeAddRefFromTrackerSourceUnsafe(); // ObjRef instance
                     }
                     else
                     {
