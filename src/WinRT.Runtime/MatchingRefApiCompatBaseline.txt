@@ -285,4 +285,7 @@ MembersMustExist : Member 'protected void WinRT.IObjectReference.ThrowIfDisposed
 MembersMustExist : Member 'public System.Boolean WinRT.IObjectReference.TryAddRefUnsafe()' does not exist in the reference but it does exist in the implementation.
 MembersMustExist : Member 'public System.IntPtr WinRT.IObjectReference.GetThisPtr()' does not exist in the reference but it does exist in the implementation.
 CannotRemoveAttribute : Attribute 'System.ObsoleteAttribute' exists on 'WinRT.IObjectReference.Release()' in the implementation but not the reference.
-Total Issues: 286
+CannotRemoveAttribute : Attribute 'System.ComponentModel.EditorBrowsableAttribute' exists on 'WinRT.IObjectReference.GetRef()' in the implementation but not the reference.
+CannotRemoveAttribute : Attribute 'System.ObsoleteAttribute' exists on 'WinRT.IObjectReference.GetRef()' in the implementation but not the reference.
+CannotRemoveAttribute : Attribute 'System.ComponentModel.EditorBrowsableAttribute' exists on 'WinRT.IObjectReference.Release()' in the implementation but not the reference.
+Total Issues: 289
