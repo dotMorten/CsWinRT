@@ -284,4 +284,5 @@ MembersMustExist : Member 'public void WinRT.IObjectReference.ReleaseUnsafe()' d
 MembersMustExist : Member 'protected void WinRT.IObjectReference.ThrowIfDisposedUnsafe()' does not exist in the reference but it does exist in the implementation.
 MembersMustExist : Member 'public System.Boolean WinRT.IObjectReference.TryAddRefUnsafe()' does not exist in the reference but it does exist in the implementation.
 MembersMustExist : Member 'public System.IntPtr WinRT.IObjectReference.GetThisPtr()' does not exist in the reference but it does exist in the implementation.
-Total Issues: 285
+CannotRemoveAttribute : Attribute 'System.ObsoleteAttribute' exists on 'WinRT.IObjectReference.Release()' in the implementation but not the reference.
+Total Issues: 286
