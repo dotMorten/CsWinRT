@@ -283,4 +283,5 @@ MembersMustExist : Member 'public System.IntPtr WinRT.IObjectReference.GetThisPt
 MembersMustExist : Member 'public void WinRT.IObjectReference.ReleaseUnsafe()' does not exist in the reference but it does exist in the implementation.
 MembersMustExist : Member 'protected void WinRT.IObjectReference.ThrowIfDisposedUnsafe()' does not exist in the reference but it does exist in the implementation.
 MembersMustExist : Member 'public System.Boolean WinRT.IObjectReference.TryAddRefUnsafe()' does not exist in the reference but it does exist in the implementation.
-Total Issues: 284
+MembersMustExist : Member 'public System.IntPtr WinRT.IObjectReference.GetThisPtr()' does not exist in the reference but it does exist in the implementation.
+Total Issues: 285
