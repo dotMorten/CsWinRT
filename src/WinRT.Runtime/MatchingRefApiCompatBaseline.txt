@@ -278,8 +278,9 @@ TypesMustExist : Type 'Windows.UI.Xaml.Automation.ElementNotAvailableException' 
 TypesMustExist : Type 'Windows.UI.Xaml.Automation.ElementNotEnabledException' does not exist in the reference but it does exist in the implementation.
 TypesMustExist : Type 'Windows.UI.Xaml.Markup.XamlParseException' does not exist in the reference but it does exist in the implementation.
 MembersMustExist : Member 'public void WinRT.IObjectReference.AddRefUnsafe()' does not exist in the reference but it does exist in the implementation.
-MembersMustExist : Member 'public System.IntPtr WinRT.IObjectReference.GetRefUnsafe()' does not exist in the reference but it does exist in the implementation.
+MembersMustExist : Member 'public System.IntPtr WinRT.IObjectReference.GetReferenceTrackerRefUnsafe()' does not exist in the reference but it does exist in the implementation.
+MembersMustExist : Member 'public System.IntPtr WinRT.IObjectReference.GetThisRefUnsafe()' does not exist in the reference but it does exist in the implementation.
 MembersMustExist : Member 'public void WinRT.IObjectReference.ReleaseUnsafe()' does not exist in the reference but it does exist in the implementation.
 MembersMustExist : Member 'protected void WinRT.IObjectReference.ThrowIfDisposedUnsafe()' does not exist in the reference but it does exist in the implementation.
 MembersMustExist : Member 'public System.Boolean WinRT.IObjectReference.TryAddRefUnsafe()' does not exist in the reference but it does exist in the implementation.
-Total Issues: 283
+Total Issues: 284
